@@ -1,4 +1,4 @@
-{% set version = '0.1.2' %}
+{% set version = "0.1.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/platetools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/platetools/platetools_{{ version }}.tar.gz
-  sha256: be6ce1d205261c33d455ff639f2d21d236cc03bf92cbfc090b798cc87a07d108
+  sha256: 0cd8ff28fe50de261eeb346445151746a070afe9d85af4aa594f87a1dceb0bb0
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -40,8 +40,7 @@ test:
 about:
   home: https://github.com/swarchal/platetools
   license: MIT
-  summary: Collection of functions for working with multi-well microtitre plates, mainly 96,
-    384 and 1536 well plates.
+  summary: Collection of functions for working with multi-well microtitre plates, mainly 96, 384 and 1536 well plates.
   license_family: MIT
   license_file: LICENSE.txt
 
