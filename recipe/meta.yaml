@@ -1,4 +1,4 @@
-{% set version = "0.1.3" %}
+{% set version = "0.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/platetools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/platetools/platetools_{{ version }}.tar.gz
-  sha256: 0cd8ff28fe50de261eeb346445151746a070afe9d85af4aa594f87a1dceb0bb0
+  sha256: 32abb2dcd413aad9fecd957af2abf0d6d41cd3dc3211c37be5ec08e7503ef863
 
 build:
   merge_build_host: true  # [win]
