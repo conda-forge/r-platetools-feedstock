@@ -1,11 +1,11 @@
-About r-platetools
-==================
+About r-platetools-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-platetools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/swarchal/platetools
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-platetools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Collection of functions for working with multi-well microtitre plates, mainly 96, 384 and 1536 well plates.
 
